@@ -27,7 +27,9 @@ Do not install an artifact unless its platform manifest is present in the same G
 
 ## Current status
 
-This repository is the official public release host. No public binary release is available yet. The first release remains gated on Android app-signing key custody, Windows trusted code signing or an approved alternative distribution route, and completion of the release acceptance checklist.
+**Published:** [NOMAD Proof 0.1.1 — Linux](https://github.com/grevechris-ux/NOMAD-Proof/releases/tag/v0.1.1). The Linux stable manifest is available at `https://github.com/grevechris-ux/NOMAD-Proof/releases/latest/download/linux-stable.json`. The release verifier workflow completed successfully for this release.
+
+This is a Linux-only technical release. Windows and Android stable manifests/packages are not published yet. Android app-signing key custody and visual device acceptance, Windows Store/Authenticode distribution, and completion of the release acceptance checklist remain outstanding. This release is not a commercial/legal/accounting certification.
 
 ## Contact and reporting
 

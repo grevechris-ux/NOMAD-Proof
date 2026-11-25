@@ -32,3 +32,7 @@ This repository is the official public release host. No public binary release is
 ## Contact and reporting
 
 Security issues should be reported privately to the project owner until a dedicated security contact and disclosure process are published.
+
+## Automated release checks
+
+The `Verify signed release assets` GitHub Actions workflow runs when a release is published. It checks each supplied platform manifest against the embedded Ed25519 public key, validates the GitHub release URL, and verifies the exact asset size and SHA-256 digest. The update private key is never placed in GitHub Actions or this repository.
